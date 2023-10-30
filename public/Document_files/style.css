@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #d8ff3c;
+  color: blue;
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  border-radius: 20px;
+  margin-top: 20px;
+  justify-items: center;
+}
+.navbar .logo {
+  display: flex;
+  gap: 20px;
+}
+
+p {
+  font-size: 40px;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.button {
+  display: flex;
+  gap: 10px;
+  justify-items: center;
+}
+
+.p2 {
+  color: #663FF1;
+  font-size: 24px;
+  padding-top: 10px;
+  font-family: Epilogue sans-serif;
+}
+
+button {
+  color: #d8ff3c;
+  background-color: #663FF1;
+  font-family: Epilogue sans-serif;
+  font-size: 20px;
+  width: 80px;
+  height: 30px;
+  border-radius: 15px;
+  text-align: center;
+  margin: 10px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.binary_section {
+  padding-top: 60px;
+  margin-left: 50px;
+}
+.binary_section p {
+  color: #d8ff3c;
+  font-size: 40px;
+}
+.binary_section h1 {
+  color: #F5F2FF;
+  font-size: 80px;
+  letter-spacing: -2px;
+  font-family: Epilogue sans-serif;
+}
+.binary_section .text {
+  font-size: 30px;
+}
+.binary_section button {
+  background-color: #d8ff3c;
+  color: #663FF1;
+  height: 50px;
+  width: 200px;
+  margin: 20px;
+  border-radius: 20px;
+  border: 6px solid #d8ff3c;
+}
+.binary_section button:hover {
+  background-color: blue;
+  color: #d8ff3c;
+}
+.binary_section .text_1 {
+  color: white;
+}/*# sourceMappingURL=style.css.map */
